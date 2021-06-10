@@ -2551,11 +2551,13 @@ Start Footer Section
 	letter-spacing: .1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 #footer #footer_desc {
 	color: white;
 	font-size: 1.1rem;
+	text-align: center;
 }
 #footer #creat_link
 {
