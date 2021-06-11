@@ -364,6 +364,8 @@ Start Home Section
       display: block;
       width: auto;
       height: auto;
+      padding-left: 10px;
+      padding-right: 10px;	  
       line-height: 40px;
       font-size: 1.2rem;
       font-family: sans-serif;
@@ -733,6 +735,8 @@ Start Home Section
         width: auto;
         height: auto;
         font-size: 1rem;
+	padding-left: 7px;
+        padding-right: 7px;    
     }
 }
 @media screen and (max-width: 339px)
@@ -845,6 +849,8 @@ Start Home Section
         width: auto;
         height:auto;
         font-size: 0.8rem;
+	padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
@@ -882,7 +888,7 @@ Who i am
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid gray;
-    box-shadow: 5px 5px 5px 5px gray ;
+    box-shadow: 4px 4px 4px 4px gray ;
     background-color: #ebecf0;
 }
     
@@ -909,9 +915,9 @@ Who i am
   	width: 70%;
     height: 250px;
     border: 1px solid gray;
-    box-shadow: 7px 7px 12px rgba(55,84,170,.15) ,
-               -7px -7px 12px  #fff ,
-                3px 3px 7px rgba(255,255,255, .2);  
+    box-shadow:2px 2px 5px rgba(55,84,170,.15) ,
+               -2px -2px 5px  #fff ,
+                1px 1px 3px rgba(255,255,255, .2);  
     border-radius: 15px;
 	  position: relative;
 	  overflow: hidden;
@@ -961,9 +967,9 @@ Who i am
     padding-top: 10px;
     padding-bottom: 20px;
     border: 1px solid #eaeff5 ;
-    box-shadow: 7px 7px 12px rgba(55,84,170,.15) ,
-                -7px -7px 12px  #fff ,
-                 3px 3px 7px rgba(255,255,255, .2);            
+    box-shadow: 2px 2px 5px rgba(55,84,170,.15) ,
+               -2px -2px 5px  #fff ,
+                1px 1px 3px rgba(255,255,255, .2);            
     margin-top: 15px;
     border-radius: 15px;
 }
@@ -975,6 +981,8 @@ Who i am
     align-items: flex-start;
     font-size: 1.3rem;
     margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 8px;	
 }    
 .about_detail #about_detail_list .fa
 {
@@ -1016,6 +1024,8 @@ Who i am
     display: block;
     width: auto;
     height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
     line-height: 40px;
     font-size: 1.3rem;
     font-family: sans-serif;
@@ -1023,9 +1033,9 @@ Who i am
     color: #04dfaf;
     font-weight: 700;
     border: 2px solid #eaeff5 ;
-    box-shadow: 7px 7px 12px rgba(55,84,170,.15) ,
-                -7px -7px 12px  #fff ,
-                 3px 3px 7px rgba(255,255,255, .2); 
+    box-shadow: 2px 2px 5px rgba(55,84,170,.15) ,
+               -2px -2px 5px  #fff ,
+                1px 1px 3px rgba(255,255,255, .2); 
     letter-spacing: 2px;
     text-align: center;    
     position: relative;
@@ -1127,7 +1137,7 @@ About me right side:-
         margin-left: 6%;
         margin-right: 6%;
         border: 1px solid gray;
-        box-shadow: 5px 5px 5px 5px gray ;
+        box-shadow: 3px 3px 3px 3px gray ;
     }
     .about_us .about_left
     {
@@ -1197,7 +1207,7 @@ About me right side:-
         margin-left: 6%;
         margin-right: 6%;
         border: 1px solid gray;
-        box-shadow: 5px 5px 5px 5px gray ;
+        box-shadow: 3px 3px 3px 3px gray ;
     
     }
     .about_us .about_left
@@ -1287,7 +1297,7 @@ About me right side:-
         margin-top: 3%;
         margin-left: 5%;
         margin-right: 5%;
-        box-shadow: 5px 5px 5px 5px gray ;
+        box-shadow: 3px 3px 3px 3px gray ;
     
     }
     .about_us .about_left
@@ -1488,6 +1498,7 @@ skill
     font-size: 18px;
     color: black;
     padding: 3px 0;
+    padding-right: 10px;	
     font-weight: 800;
 }
 .skill_bar {
@@ -2001,14 +2012,12 @@ service contanier with card
 }
 .S_card 
 {
-  
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 300px;
   height: auto;
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 3px 3px 3px 3px gray;
   position: relative;
   margin-bottom: 7%;
   margin-right: 2%;
@@ -2037,7 +2046,7 @@ service contanier with card
 }
 .S_card:hover
 {
-  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.8);
 }
 
 .S_card:before {
@@ -2073,15 +2082,12 @@ service contanier with card
    
   .S_card 
 {
-  
-
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 280px;
   height: auto;
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 3px 3px 3px 3px gray;
   position: relative;
   margin-bottom: 7%;
   margin-right: 1%;
@@ -2417,14 +2423,12 @@ contat contanier box
 }
 .c_card 
 {
-  
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 250px;
   height: auto;
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 3px 3px 3px 3px gray;
   position: relative;
   margin-bottom: 6%;
   margin-right: 1%;
@@ -2459,7 +2463,7 @@ contat contanier box
 }
 .c_card:hover
 {
-  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+  box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.8);
 }
 
 .c_card:before {
@@ -2495,15 +2499,12 @@ contat contanier box
    
   .c_card 
 {
-  
-  
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 280px;
   height: auto;
   text-align: center;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 5px 5px 5px 5px gray;
+  box-shadow: 3px 3px 3px 3px gray;
   position: relative;
   margin-bottom: 7%;
   margin-right: 1%;
