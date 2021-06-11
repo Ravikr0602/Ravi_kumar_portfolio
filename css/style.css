@@ -346,7 +346,7 @@ Start Home Section
 .hire
 {
     position: relative;
-    width: 100%;
+    width: auto;
     height: auto;
     margin-top: 20px;
     
@@ -362,8 +362,8 @@ Start Home Section
     border-radius: 10px;
       outline: none;
       display: block;
-      width: 200px;
-      height: 40px;
+      width: auto;
+      height: auto;
       line-height: 40px;
       font-size: 1.2rem;
       font-family: sans-serif;
@@ -495,7 +495,7 @@ Start Home Section
     .hire
     {
         position: relative;
-        width: 100%;
+        width: auto;
         height: auto;
         margin-top: 30px;
         
@@ -509,8 +509,8 @@ Start Home Section
     }
     #h_btn{
         display: block;
-        width: 200px;
-        height: 40px;
+        width: auto;
+        height: auto;
     }
 }
 @media (min-width: 430px) and (max-width: 519px)
@@ -605,7 +605,7 @@ Start Home Section
     .hire
     {
         position: relative;
-        width: 100%;
+        width: auto;
         height: auto;
         margin-top: 30px;
         
@@ -619,8 +619,8 @@ Start Home Section
     }
     #h_btn{
         display: block;
-        width: 180px;
-        height: 40px;
+        width: auto;
+        height:auto;
     }
 }
 @media (min-width: 340px) and (max-width: 429px)
@@ -716,7 +716,7 @@ Start Home Section
     .hire
     {
         position: relative;
-        width: 100%;
+        width: auto;
         height: auto;
         margin-top: 30px;
         
@@ -730,8 +730,8 @@ Start Home Section
     }
     #h_btn{
         display: block;
-        width: 150px;
-        height: 40px;
+        width: auto;
+        height: auto;
         font-size: 1rem;
     }
 }
@@ -828,7 +828,7 @@ Start Home Section
     .hire
     {
         position: relative;
-        width: 100%;
+        width: auto;
         height: auto;
         margin-top: 30px;
         
@@ -842,8 +842,8 @@ Start Home Section
     }
     #h_btn{
         display: block;
-        width: 140px;
-        height: 40px;
+        width: auto;
+        height:auto;
         font-size: 0.8rem;
     }
 }
